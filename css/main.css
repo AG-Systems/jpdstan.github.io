@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+	margin-top: 50px;
+	background-image: url("../img/background3.jpg");
+	background-position:center;
+	color: #fff;
+}
+.container {
+	width: 750px;
+}
+#self {
+	display: block;
+	margin: 20px auto;
+	height: 140px;
+	width: 140px;
+	border-radius: 140px;
+		-webkit-border-radius: 140px;
+		-moz-border-radius: 140px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
