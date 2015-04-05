@@ -10,7 +10,7 @@ body {
 }
 #self {
 	display: block;
-	margin: 20px auto;
+	margin: 0 auto;
 	height: 140px;
 	width: 140px;
 	border-radius: 140px;
