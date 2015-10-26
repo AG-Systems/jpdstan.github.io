@@ -1,17 +1,95 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Stanley Kwong Portfolio</title>
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/main.css">
-	</head>
+<head>
+	<title>Stanley Kwong Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
 
-	<body>
+</head>
+
+<body>
+	<div class="container">
+
 		<div class="row">
-			<img id="self" src="img/self_web.jpg" />
-			<h1>Stanley Kwong</h1>
-			<a href="img/resume.pdf"><button type="button" class="btn btn-default btn-lg">Resume</button></a>
-			<a href="http://github.com/jpdstan"><button type="button" class="btn btn-default btn-lg">Projects</button></a>
+			<div class="col s12 ">
+				<div class="card-panel grey lighten-5 z-depth-1">
+					<div class="row valign-wrapper">
+						<div class="col s3">
+							<img src="img/self_web.jpg" alt="" class="circle responsive-img">
+						</div>
+						<div class="col s9">
+									<div class="row">
+			<h2>Stanley Kwong</h2>
 		</div>
-	</body>
+							<div class="row">
+								<div class="description black-text">
+									Hello! Thanks for checking out my website! I am currently an undergraduate student at UC Berkeley majoring in Computer Science and Cognitive Science. I am hoping that my time in school will enable me to build amazing software. Needless to say, it is going to be a long and difficult path, so in the meantime I am looking for any sort of exposure to the software industry. Topics that fascinate in particular are Computer Security, Computer Networks, and Web Development. Check out some of my past projects below!
+								</div>
+							</div>
+							<div class="row">
+								<a href="img/resume.pdf" class="amber waves-effect waves-light btn-large"><i class="material-icons left">list</i>Resume</a>
+								<a href="mailto:stan.kwong@berkeley.edu" class="amber waves-effect waves-light btn-large"><i class="material-icons left">voicemail</i>Contact Me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col s4">
+				<div class="card medium">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="img/CircleRydeLogo.png">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Ryde</span>
+						<p>No link available yet!</p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Ryde<i class="material-icons right">close</i></span>
+						<p>Ryde is a very early-stage startup that provides a messaging platform for autmotive services. This application is currently being tested by a handful of auto shops, so unfortunately there is no version currently released to the public.</p>
+						<p>I developed the web platform of the application, using AngularJS to manage the dynamic/asycnchronous UI and Firebase for our backend.</p>
+					</div>
+				</div>
+			</div>			
+			<div class="col s4">
+				<div class="card medium">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="img/fastext.png" />
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Fastext</span>
+						<p><a href="github.com/jpdstan/Fastext">Github</a></p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Fastext<i class="material-icons right">close</i></span>
+						<p>Fastext is a simple speed reading tool, built for the purpose of practicing some JavaScript and jQuery.</p>
+						<p><a href="github.com/jpdstan">Github</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col s4">
+				<div class="card medium">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="img/robo.png">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Burlingame Robotics</span>
+						<p><a href="https://github.com/Iron-Panthers/iron-panthers-web">Github</a></p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Burlingame Robotics<i class="material-icons right">close</i></span>
+						<p>A website I made for my high school robotics team in 2014. Unfortunately, the domain now points to a new website managed by some lame CMS, but the source code for the original website still exists, and you can view the website on your own server.</p>
+						<p>This website, mostly purposed as a blog, was built with AngularJS. Blog posts were inserted into a single JSON file that was parsed in the main Angular controller.</p>
+						<p><a href="https://github.com/Iron-Panthers/iron-panthers-web">Github</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+</body>
 </html>
