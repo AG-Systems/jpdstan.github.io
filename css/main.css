@@ -8,13 +8,7 @@ body {
 
 }
 #self {
-/*	margin: 0 auto;
-	height: 16em;
-	width: 16em;
-	border-radius: 80px;
-		-webkit-border-radius: 16em;
-		-moz-border-radius: 16em;
-*/	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 		-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
