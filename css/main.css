@@ -31,8 +31,13 @@ nav ul a, footer.page-footer .footer-copyright {
 
 #projects img {
 	height: auto;
-	width: 132px;
+	width: 200px;
 }
+
+#projects .design {
+	width: 500px;
+}
+
 .links img {
 	height: auto;
 	width: 70px;
