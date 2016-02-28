@@ -1,20 +1,36 @@
 body {
 	font-family: Roboto, Calibri;
-	background-position:center;
-	background-repeat: repeat;
-	/*background-color: #b3e5fc;*/
+	/*background: url('/img/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+    font-weight: 400;
 }
 nav, footer.page-footer {
-	background-color: #ffffff;
-	position:relative;
+	/*background-color: #ffffff;*/
+	position: relative;
+	background-color: transparent;
+    border-bottom: none;
+    box-shadow: none;
 }
 nav ul a, footer.page-footer .footer-copyright {
 	color: #000;
 }
+
+#header {
+	font-weight: 300;
+}
+
 #self {
-	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-		-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	box-shadow: 0 0 7px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 7px rgba(0, 0, 0, .8);
+}
+
+.about-card {
+	color: #000;
+	z-index: 10000;
 }
 
 #about {
