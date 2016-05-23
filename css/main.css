@@ -17,7 +17,17 @@ nav ul a, footer.page-footer .footer-copyright {
 	font-weight: 300;
 }
 
-#self {
+.self {
+	height: 300px;
+	width: 300px;
+	background: url(../img/self2.jpg) 50% 50% no-repeat;
+	background-position: center center;
+    background-size: cover;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .8);
+	border-radius: 50%;
+}
+
+.self img {
 	box-shadow: 0 0 7px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 7px rgba(0, 0, 0, .8);
