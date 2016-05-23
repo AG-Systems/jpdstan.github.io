@@ -1,6 +1,7 @@
 body {
-	font-family: Roboto, Calibri;
+	font-family: 'Raleway', sans-serif;
     font-weight: 350;
+    line-height: 1.75em;
 }
 nav, footer.page-footer {
 	/*background-color: #ffffff;*/
@@ -9,22 +10,35 @@ nav, footer.page-footer {
     border-bottom: none;
     box-shadow: none;
 }
+
 nav ul a, footer.page-footer .footer-copyright {
 	color: #000;
 }
 
+.container {
+	margin-top: 5em;
+    box-shadow: 0 0 7px rgba(177, 177, 177, 0.8);
+    padding: 4em;
+}
+
 #header {
-	font-weight: 300;
+	font-weight: 400;
+}
+
+.sidebar {
+	position: fixed;
+	font-size: 2.25em;
+	line-height: 1.5em;
 }
 
 .self {
-	height: 300px;
-	width: 300px;
+	height: 15em;
+	width: auto;
 	background: url(../img/self2.jpg) 50% 50% no-repeat;
 	background-position: center center;
     background-size: cover;
     box-shadow: 0 0 7px rgba(0, 0, 0, .8);
-	border-radius: 50%;
+	
 }
 
 .self img {
@@ -38,21 +52,12 @@ nav ul a, footer.page-footer .footer-copyright {
 	z-index: 10000;
 }
 
-#about {
-	margin-top: 20px;
-}
-
 #projects {
 
 }
 
 #projects li div {
 	margin-bottom: 10px;
-}
-
-#projects img {
-	height: auto;
-	width: 200px;
 }
 
 #projects .design {

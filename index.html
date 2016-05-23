@@ -3,183 +3,208 @@
 <head>
 	<title>Stanley Kwong Portfolio</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 </head>
-<div class="navbar hide-on-small-and-down">
+<!-- <div class="navbar hide-on-small-and-down">
 	<nav>
 		<div class="container">
 			<ul class="right">
 				<li><a href="#about">ABOUT</a></li>
 				<li><a href="#projects">PROJECTS</a></li>
-				<li><a href="img/resume.pdf" target="_blank">RESUME</a></li>
-				<li><a href="mailto:stan.kwong@berkeley.edu">CONTACT</a></li>
+				
 			</ul>
 		</div>
 	</nav>
-</div>
+</div> -->
 
 <body>
-<div class="container">
-	<div class="row center"> 
-		<h3 id="header">Stanley Kwong</h3>
-		<div id="loading" class="preloader-wrapper big active center">
+	<div class="col hide-on-med-and-down m3 l2 sidebar">
+		      <ul class="section table-of-contents">
+		        <li><a href="#about">about</a></li>
+		        <li><a href="#projects">projects</a></li>
+		        <li><a href="img/resume.pdf" target="_blank">resume</a></li>
+				<li><a href="mailto:stan.kwong@berkeley.edu">contact</a></li>
+		      </ul>
+		    </div>
+	<div class="container">
+		
+		<div class="row center"> 
+			<h3 id="header">Stanley Kwong</h3>
+			<div id="loading" class="preloader-wrapper big active center">
 				<div class="spinner-layer spinner-blue-only">
 					<div class="circle-clipper left">
 						<div class="circle"></div>
-					</div><div class="gap-patch">
-					<div class="circle"></div>
-				</div><div class="circle-clipper right">
-					<div class="circle"></div>
-				</div>
-				</div>
-			</div>
-	</div>
-	<div class="row" id="about">
-
-		<div class="col s12">
-			
-			<div class="col s8">
-				<p>Hi, thanks for checking out my website, however you may have stumbled upon it.
-					I am a second-year undergraduate at UC Berkeley studying Computer Science
-					and Cognitive Science. I have always been amazed at how much software has
-					changed the world in which we live; I hope that my time in school (and some industry
-					along the way) will enable me to contribute to some meaningful software.</p>
-				<p>Topics that fascinate me in particular are computer security, computer networks, and web development.</p>
-				<p>To prove that I am a human with interests, in my free time, I like to sing a capella,
-					play competitive Smash, and try new and arguably health-threatening foods.</p>
-			</div>
-			<div class="col s4">
-				<div class="self">
-					<!-- <img src="img/self2.jpg" alt="" class="circle responsive-img"> -->
+					</div>
+					<div class="gap-patch">
+						<div class="circle"></div>
+					</div>
+					<div class="circle-clipper right">
+						<div class="circle"></div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+		<div class="row" id="about">
 
-	<!-- <div class="row">
-    <a href="img/resume.pdf" class="amber waves-effect waves-light btn-large"><i class="material-icons left">list</i>Resume</a>
-    <a href="mailto:stan.kwong@berkeley.edu" class="amber waves-effect waves-light btn-large"><i class="material-icons left">email</i>Contact Me</a>
-</div> -->
+			<div class="col s12">
+				<div class="col s7">
+					<h4>Aspiring software developer, born and raised in the Bay Area.</h4>
+					<p>Currently living in Berkeley where I spend most of my days doing problem sets and walking to Soda Hall.</p>
+				</div>
+				<div class="col s5">
+					<div class="self">
+						<!-- <img src="img/self2.jpg" alt="" class="circle responsive-img"> -->
+					</div>
+				</div>
+			</div>
+		    
+		</div>
+
+		<!-- <div class="row">
+	    <a href="img/resume.pdf" class="amber waves-effect waves-light btn-large"><i class="material-icons left">list</i>Resume</a>
+	    <a href="mailto:stan.kwong@berkeley.edu" class="amber waves-effect waves-light btn-large"><i class="material-icons left">email</i>Contact Me</a>
+	</div> -->
 
 
-	<div class="row section scrollspy">
-		<ul id="projects">
-			<li>
-				<div class="col s12">
-					<h4>Programming</h4>
-					<div class="divider"></div>
-				</div>
-			</li>
-			<li>
-				<div class="col s12">
-					<div class="col s2">
-						<a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="AngularJS/Firebase, October 2015" href="#/projects">
-							<img src="img/CircleRydeLogo.png" alt="" class="responsive-img">
-						</a>
-					</div>
-					<div class="col s10">
-						<h5>Ryde</h5>
-						<p> Ryde is a very early-stage startup in auto care. I developed the MVP of the web platform of their application, "Ryde", using AngularJS to
-							create the UI and Firebase for the datastore. I also built our new Nodejs
-							backend API to help us integrate external APIs more easily, such as a secure payment system through Braintree.</p>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="col s12">
-					<div class="col s2">
-						<a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Java, December 2015" href="#/projects">
-							<img src="img/gitlet.png" alt="" class="responsive-img">
-						</a>
-					</div>
-					<div class="col s10">
-						<h5>Gitlet</h5>
-						<p>One of my more notable school projects.
-							Gitlet is a version control system for managing products,
-							mirroring the features of Git.  Emphasized the
-							serialization and manipulation of files to compress,
-							access, and manage file content efficiently.
-							Stressed the employment of appropriate data
-							structures. Code available on request.</p>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="col s12">
-					<div class="col s2">
-						<a target="_blank" class="tooltipped" data-position="bottom" data-delay="15" data-tooltip="JavaScript, July 2014" href="https://github.com/jpdstan/Fastext">
-							<img src="img/fastext.png" alt="" class="responsive-img">
-						</a>
-					</div>
-					<div class="col s10">
-						<h5>Fastext</h5>
-						<p>Fastext is a simple speed reading tool, built for the purpose of practicing some JavaScript and jQuery.</p>
-						<p>Fastext flashes words based on a selected speed (WPM), utilizing cognitive potential to read more
-							words in a shorter period of time. We typically read words in our head before interpreting them,
-							which severely limits our speed as our brain is much faster at interpreting words than we are at saying them
-							in our head.</p>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="col s12">
-				<h4>Web Design</h4>
-				<div class="divider"></div>
-					</div>
-			</li>
-			<li>
-				<div class="col s12">
-					<div class="col s6">
-						<h5>Burlingame Robotics Website</h5>
+		<div class="row section scrollspy">
+			<ul id="projects">
+				<li>
+					<div class="col s12">
+						<h3>about</h3>
 						<div class="divider"></div>
-						<p>A website I made for my high school robotics team in 2014. Unfortunately, the domain
-							now points to a new website managed by some lame CMS, but the source code for the original
-							website still exists, and you can view the website on your own server.</p>
-
-						<p>This website, mostly purposed as a blog, was built with AngularJS. Blog posts were inserted
-							into a single JSON file that was parsed in the main Angular controller.</p>
 					</div>
-					<div class="col s6">
-						<a target="_blank" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="AngularJS, August 2014" href="https://github.com/Iron-Panthers/iron-panthers-web">
-							<img src="img/robo.png" alt="" class="responsive-img design">
-						</a>
+					<div class="col s12 l4">
+						<img src="img/school.png" class="responsive-img"/>
+						<p>Third-year undergrad at UC Berkeley studying Computer Science. </p>
+						<p>When I'm not suffocated by problem sets and programming projects, I sing a capella, design stuff with Innovative Design, and hang out at Sammys, my fraternity.</p>
 					</div>
-
-				</div>
-			</li>
-			<li>
-				<div class="col s12">
-					<div class="col s6">
-						<div class="row">
-							<a target="_blank" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="AngularJS, August 2014" href="https://github.com/jpdstan/inspiring-community-web">
-								<img src="img/inspiring.png" alt="" class="responsive-img design">
+					<div class="col s12 l4">
+						<img src="img/code.png" class="responsive-img"/>
+						<p>I'm hoping to get as much exposure to the software engineering industry as much as I can. As such, I interned last year at <b>Fyber</b>, and I spent the last 8 months on an application called <b>Ryde</b> with some friends. </p>
+						<p>This summer I will be interning at <b>Concur</b> doing backend stuff.</p>
+					</div>
+					<div class="col s12 l4">
+						<img src="img/game.png" class="responsive-img"/>
+						<p>This bio wouldn't be complete without my background in video games. In fact, the first time I ever used a computer was to play RuneScape back in 2006. I hope that one day I will be able to link my future career back to gaming in a meaningful way, given how impactful games have been on my interests in computers.</p>
+						<p>Also, if you Smash (Melee), let's play!</p>
+					</div>
+				</li>
+				<li>
+					<div class="col s12">
+						<h3>programming</h3>
+						<div class="divider"></div>
+					</div>
+				</li>
+				<li>
+					<div class="col s12">
+						<div class="col s3">
+							<a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="AngularJS/Firebase, October 2015" href="#/projects">
+								<img src="img/CircleRydeLogo.png" alt="" class="responsive-img">
 							</a>
 						</div>
+						<div class="col s9">
+							<h5>Ryde</h5>
+							<p> Ryde is a very early-stage startup in auto care. I developed the MVP of the web platform of their application, "Ryde", using AngularJS to
+								create the UI and Firebase for the datastore. I also built our new Nodejs
+								backend API to help us integrate external APIs more easily, such as a secure payment system through Braintree.</p>
+						</div>
 					</div>
-					<div class="col s6">
-						<h5>Inspiring Community Leaders Website</h5>
-						<div class="divider"></div>
-						<p>This is a template I made for a nonprofit organization called "Inspiring Community Leaders".</p>
-						<p>This site maintains a blogging interface and a nicely tiled events page. Built with AngularJS, these blog posts and events were inserted into a JSON file that was parsed by the Angular controller.</p>
+				</li>
+				<li>
+					<div class="col s12">
+						<div class="col s3">
+							<a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Java, December 2015" href="#/projects">
+								<img src="img/gitlet.png" alt="" class="responsive-img">
+							</a>
+						</div>
+						<div class="col s9">
+							<h5>Gitlet</h5>
+							<p>One of my more notable school projects.
+								Gitlet is a version control system for managing products,
+								mirroring the features of Git.  Emphasized the
+								serialization and manipulation of files to compress,
+								access, and manage file content efficiently.
+								Stressed the employment of appropriate data
+								structures. Code available on request.</p>
+						</div>
 					</div>
-				</div>
-			</li>
-		</ul>
-	</div>
-	<div class="row center links">
-		<a href="https://linkedin.com/in/kwongstanley" target="_blank"><img src="img/linkedin.png"></a>
-		<a href="https://github.com/jpdstan" target="_blank"><img src="img/git.png"/></a>
-	</div>
-</div>
+				</li>
+				<li>
+					<div class="col s12">
+						<div class="col s3">
+							<a target="_blank" class="tooltipped" data-position="bottom" data-delay="15" data-tooltip="JavaScript, July 2014" href="https://github.com/jpdstan/Fastext">
+								<img src="img/fastext.png" alt="" class="responsive-img">
+							</a>
+						</div>
+						<div class="col s9">
+							<h5>Fastext</h5>
+							<p>Fastext is a simple speed reading tool, built for the purpose of practicing some JavaScript and jQuery.</p>
+							<p>Fastext flashes words based on a selected speed (WPM), utilizing cognitive potential to read more
+								words in a shorter period of time. We typically read words in our head before interpreting them,
+								which severely limits our speed as our brain is much faster at interpreting words than we are at saying them
+								in our head.</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="col s12">
+					<h3>web design</h3>
+					<div class="divider"></div>
+						</div>
+				</li>
+				<li>
+					<div class="col s12">
+						<div class="col s6">
+							<h5>Burlingame Robotics Website</h5>
+							<div class="divider"></div>
+							<p>A website I made for my high school robotics team in 2014. Unfortunately, the domain
+								now points to a new website managed by some lame CMS, but the source code for the original
+								website still exists, and you can view the website on your own server.</p>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+							<p>This website, mostly purposed as a blog, was built with AngularJS. Blog posts were inserted
+								into a single JSON file that was parsed in the main Angular controller.</p>
+						</div>
+						<div class="col s6">
+							<a target="_blank" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="AngularJS, August 2014" href="https://github.com/Iron-Panthers/iron-panthers-web">
+								<img src="img/robo.png" alt="" class="responsive-img design">
+							</a>
+						</div>
+
+					</div>
+				</li>
+				<li>
+					<div class="col s12">
+						<div class="col s6">
+							<div class="row">
+								<a target="_blank" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="AngularJS, August 2014" href="https://github.com/jpdstan/inspiring-community-web">
+									<img src="img/inspiring.png" alt="" class="responsive-img design">
+								</a>
+							</div>
+						</div>
+						<div class="col s6">
+							<h5>Inspiring Community Leaders Website</h5>
+							<div class="divider"></div>
+							<p>This is a template I made for a nonprofit organization called "Inspiring Community Leaders".</p>
+							<p>This site maintains a blogging interface and a nicely tiled events page. Built with AngularJS, these blog posts and events were inserted into a JSON file that was parsed by the Angular controller.</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="row center links">
+			<a href="https://linkedin.com/in/kwongstanley" target="_blank"><img src="img/linkedin.png"></a>
+			<a href="https://github.com/jpdstan" target="_blank"><img src="img/git.png"/></a>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 <footer class="page-footer">
 	<div class="footer-copyright">
-		<div class="container">
 			<div class="row">
 				<div class="col s12">
 					<div class="col s6">
@@ -187,8 +212,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-
 	</div>
 </footer>
 </html>
