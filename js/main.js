@@ -1,6 +1,25 @@
 $(document).ready(function() {
+  // materialize animations
+  Materialize.fadeInImage('#header');
+  Materialize.fadeInImage('#summary');
   Materialize.fadeInImage('#about');
-  Materialize.showStaggeredList('#projects');
+
+  
+  var options = [
+    {selector: '#projects', offset: 30, callback: function() {
+      Materialize.showStaggeredList('#projects');
+    }},
+    {selector: '#design', offset: 30, callback: function() {
+      Materialize.showStaggeredList('#design');
+    }}
+  ];
+  Materialize.scrollFire(options);
+
+  
+
+  // jquery animations
   $('#loading').toggle();
-  $('.scrollspy').scrollSpy();
+  // $('#summary').toggle();
+  // $('#summary').slideToggle();
+  
 });
