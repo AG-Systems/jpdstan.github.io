@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 COMMIT_MSG="update resume"
 

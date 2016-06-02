@@ -80,3 +80,19 @@ nav ul a, footer.page-footer .footer-copyright {
 	width: 70px;
 	padding: 0 10px;
 }
+
+.animation {
+	width: 90px;
+	height: 65px;
+}
+.path {
+  	stroke-dasharray: 30, 5;
+  	animation: dash 120s linear;
+  	position: absolute;
+}
+
+@keyframes dash {
+  	to {
+    	stroke-dashoffset: 2000;
+  	}
+}
