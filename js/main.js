@@ -13,7 +13,7 @@ $(document).ready(function() {
       Materialize.showStaggeredList('#design');
     }}
   ];
-  Materialize.scrollFire(options);
+  // Materialize.scrollFire(options);
 
   
 
