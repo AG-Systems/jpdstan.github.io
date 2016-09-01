@@ -1,8 +1,13 @@
 body {
-	font-family: 'Raleway', sans-serif;
-    font-weight: 350;
+	font-family: 'Hind', sans-serif;
+    font-weight: normal;
     line-height: 1.75em;
 }
+
+b {
+	font-weight: 3000;
+}
+
 nav, footer.page-footer {
 	/*background-color: #ffffff;*/
 	position: relative;
