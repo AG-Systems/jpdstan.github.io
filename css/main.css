@@ -31,6 +31,10 @@ footer.page-footer {
 	    border-bottom: none;
 	    box-shadow: none;	
 	}
+	.nav-wrapper
+	{
+		display: none;
+	}
 }
 nav ul a, footer.page-footer .footer-copyright {
 	color: #000;
