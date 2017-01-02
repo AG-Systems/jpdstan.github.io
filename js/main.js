@@ -22,4 +22,7 @@ $(document).ready(function() {
   // $('#summary').toggle();
   // $('#summary').slideToggle();
   
+  
+  // navbar
+  $(".button-collapse").sideNav();
 });

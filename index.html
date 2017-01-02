@@ -2,9 +2,13 @@
 <html>
 <head>
 	<title>Stanley Kwong Portfolio</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <!-- <div class="navbar hide-on-small-and-down">
@@ -18,7 +22,30 @@
 		</div>
 	</nav>
 </div> -->
+<!-- navbar -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+			<li><a href="#about" class="section scrollspy">about</a></li>
+			<li><a href="#projects" class="section scrollspy">dev</a></li>
+			<li><a href="#design" class="section scrollspy">design</a></li>
+			<li><a href="img/resume.pdf" target="_blank">resume</a></li>
+			<li><a href="mailto:stan.kwong@berkeley.edu">contact</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+			<li><a href="#about" class="section scrollspy">about</a></li>
+			<li><a href="#projects" class="section scrollspy">dev</a></li>
+			<li><a href="#design" class="section scrollspy">design</a></li>
+			<li><a href="img/resume.pdf" target="_blank">resume</a></li>
+			<li><a href="mailto:stan.kwong@berkeley.edu">contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
+<!-- end of navbar -->
+        
 <body>
 	<div class="col hide-on-med-and-down m3 l2 sidebar">
 		<ul class="section table-of-contents">
